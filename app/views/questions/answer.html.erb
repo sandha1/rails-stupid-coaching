@@ -1,0 +1,12 @@
+<div class='container'>
+  <h1>Stupid coaching</h1>
+
+  <div class='bg-warning text-dark border-left ps-3 w-50 my-5'>
+    <p><strong><%= params["question"] %></strong><p>
+    <p>~ Coach: <%= @answer %></p>
+  </div>
+
+  <div>
+    <%= link_to 'Ask another question', ask_path %>
+  </div>
+</div>
